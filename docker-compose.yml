@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  customers.web:
+    image: observability-customers
+    build:
+      context: .
+      dockerfile: Customers.Web/Dockerfile
+    ports:
+    - 32007:80
+
+  orders.web:
+    image: observability-orders
+    build:
+      context: .
+      dockerfile: Orders.Web/Dockerfile
+    ports:
+    - 32008:80
+
+  inventory.web:
+    image: observability-inventory
+    build:
+      context: .
+      dockerfile: Inventory.Web/Dockerfile
+    ports:
+    - 32009:80
+

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Web", "Customers.Web\Customers.Web.csproj", "{5BFBFDDE-DB7C-43E6-A95F-38B4285ADA68}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7A452176-4CC5-4A5F-AF7C-2822D306A579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory.Web", "Inventory.Web\Inventory.Web.csproj", "{5F0579A1-CC61-40B0-961E-19C5F78CE505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orders.Web", "Orders.Web\Orders.Web.csproj", "{E7F513C1-7E46-422A-B21A-3D79C46FF543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observability.Core", "Observability.Core\Observability.Core.csproj", "{77192469-76EC-460B-A8AD-0F01FE60C303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observability.RabbitMq", "Observability.RabbitMq\Observability.RabbitMq.csproj", "{4073F6B8-D38C-4D19-9CA1-64B0FD91B407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observability.MongoDb", "Observability.MongoDb\Observability.MongoDb.csproj", "{0C79BA10-EFE9-472A-AA26-D2997637C901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BFBFDDE-DB7C-43E6-A95F-38B4285ADA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFBFDDE-DB7C-43E6-A95F-38B4285ADA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFBFDDE-DB7C-43E6-A95F-38B4285ADA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFBFDDE-DB7C-43E6-A95F-38B4285ADA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A452176-4CC5-4A5F-AF7C-2822D306A579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A452176-4CC5-4A5F-AF7C-2822D306A579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A452176-4CC5-4A5F-AF7C-2822D306A579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A452176-4CC5-4A5F-AF7C-2822D306A579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0579A1-CC61-40B0-961E-19C5F78CE505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0579A1-CC61-40B0-961E-19C5F78CE505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0579A1-CC61-40B0-961E-19C5F78CE505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0579A1-CC61-40B0-961E-19C5F78CE505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F513C1-7E46-422A-B21A-3D79C46FF543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F513C1-7E46-422A-B21A-3D79C46FF543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F513C1-7E46-422A-B21A-3D79C46FF543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F513C1-7E46-422A-B21A-3D79C46FF543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77192469-76EC-460B-A8AD-0F01FE60C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77192469-76EC-460B-A8AD-0F01FE60C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77192469-76EC-460B-A8AD-0F01FE60C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77192469-76EC-460B-A8AD-0F01FE60C303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4073F6B8-D38C-4D19-9CA1-64B0FD91B407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4073F6B8-D38C-4D19-9CA1-64B0FD91B407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4073F6B8-D38C-4D19-9CA1-64B0FD91B407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4073F6B8-D38C-4D19-9CA1-64B0FD91B407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C79BA10-EFE9-472A-AA26-D2997637C901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C79BA10-EFE9-472A-AA26-D2997637C901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C79BA10-EFE9-472A-AA26-D2997637C901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C79BA10-EFE9-472A-AA26-D2997637C901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5141E88-86E4-4700-BBEB-FAF64617521D}
+	EndGlobalSection
+EndGlobal
